@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+}
+.nav_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_title_info:hover {
+  color: #0b83ee;
+  transform: scale(1.02);
+}
+.nav_title_info {
+  font-family: Open Sans;
+  padding: 20px 5px 20px 36px;
+  color: #3e3f48;
+  transition: 0.5s;
+}
+
+.nav_title > svg {
+  font-size: 17px;
+  color: #3e3f48;
+  margin-top: 1.5px;
+}
+.nav_title > svg:hover {
+  color: #0b83ee;
+  transform: scale(1.02);
+}
+
+.nav_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_name > svg {
+  font-size: 45px;
+  position: absolute;
+  right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #3e3f48;
+}
+.nav_name > h3 {
+  font-family: Open Sans;
+  position: absolute;
+  right: 65px;
+  color: #3e3f48;
+}

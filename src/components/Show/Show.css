@@ -1,0 +1,150 @@
+.show {
+  position: absolute;
+  display: flex;
+  background-color: #f2f2f3;
+  left: 260px;
+  right: 0px;
+  top: 65px;
+  height: 100%;
+  border: 1px solid #e5e5e6;
+}
+.add_post {
+  display: flex;
+}
+.add_input {
+  background-color: white;
+  padding: 10px 5px;
+  margin-left: 70px;
+  margin-top: 55px;
+  border-radius: 5px;
+}
+.t {
+  margin-left: 10px;
+}
+.add_post_button {
+  margin-top: 55px;
+  margin-left: 15px;
+  padding: 10px 5px;
+  width: 200px;
+  height: 50px;
+  background-color: #0b83ee;
+  border-radius: 5px;
+  color: white;
+  font-family: Open Sans;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  transition: 0.58s;
+}
+.add_post_button:hover {
+  background-color: white;
+  color: #3e3f48;
+  border: 1px solid #0b83ee;
+  transform: scale(1.1);
+}
+.update_button {
+  position: absolute;
+  top: 55px;
+  padding: 10px 5px;
+  width: 200px;
+  height: 50px;
+  background-color: #0b83ee;
+  border-radius: 5px;
+  color: white;
+  font-family: Open Sans;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  transition: 0.58s;
+  left: 648px;
+}
+.table {
+  position: absolute;
+  top: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  right: 59px;
+  background-color: white;
+}
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fdf4ed;
+  color: #3e3f48;
+}
+.btn {
+  padding: 8px 10px 8px 10px;
+  font-family: Open Sans;
+  font-weight: bold;
+  color: #3e3f48;
+}
+.del {
+  margin-left: 10px;
+  background: #f062b5;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.del:hover {
+  background: white;
+  border: 1px solid red;
+  transform: scale(1.1);
+}
+.edit {
+  background: #0b83ee;
+  transition: 0.5s;
+  border-radius: 10px;
+  color: white;
+}
+.edit:hover {
+  background: white;
+  border: 1px solid #0b83ee;
+  transform: scale(1.1);
+  color: #3e3f48;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 260px;
+  top: 600px;
+  font-size: 1.2rem;
+  gap: 10px;
+  list-style-type: none;
+}
+.pagination .page_num {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+.pagination .page_num:hover {
+  background-color: #5ab1bb;
+  color: #fff;
+}
+.pagination .active {
+  background-color: #5ab1bb;
+}
+.search_filter {
+  position: absolute;
+  top: 120px;
+  margin-left: 70px;
+  background: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
